@@ -1,0 +1,3 @@
+useDynLib(AlgoR.dijkstra, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
